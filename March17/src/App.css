@@ -1,0 +1,92 @@
+body {
+  background: blueviolet;
+}
+.App {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn1 {
+  width: 10%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+input,
+textarea,
+select {
+  width: 30%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+label {
+  margin-right: 20px;
+}
+
+h1 {
+  color: lavenderblush;
+  font-weight: bold;
+}
+.showp {
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 20px;
+  background: lightgray;
+  box-shadow: 10px 10px 10px black;
+}
+form {
+  border: 2px solid black;
+  background: lemonchiffon;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  box-shadow: 10px 10px 10px black;
+}
+.links {
+  width: 100%;
+  border: 2px solid black;
+  background: black;
+}
+.lnk1 {
+  border: 2px solid black;
+}
